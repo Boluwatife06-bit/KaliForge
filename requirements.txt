@@ -1,0 +1,2 @@
+# Optional: for an even richer terminal UI
+rich>=13.0.0
