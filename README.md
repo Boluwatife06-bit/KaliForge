@@ -27,3 +27,18 @@ git clone https://github.com/boluwatife06-bit/KaliForge.git
 cd KaliForge
 # No external dependencies required (Python 3.8+)
 python3 kali_forge.py
+
+📖 Usage
+
+List categories – See all 17 tool categories and meta‑metapackages.
+Check & install a category – Scan one category and install missing tools.
+Install ALL missing tools – Scan everything and install all missing packages.
+Install a metapackage – Install kali-tools-top10, kali-linux-everything, etc.
+Search – Find tools by name.
+Export report – Save installed/missing status to JSON and log files.
+⚠️ Disclaimer
+
+This tool is for educational purposes only. Unauthorised scanning or
+attacking of systems is illegal. Always obtain explicit permission before
+testing any system.
+
