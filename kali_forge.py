@@ -1,15 +1,4 @@
 #!/usr/bin/env python3
-"""
-KALIFORGE - Universal Kali Linux Tools Installer
-Author: boluwatife06-bit (GitHub)
-Description: Detects your Linux distribution, adds the Kali repository if
-             required, checks which Kali tools are already installed, and
-             automatically downloads and installs any missing tools.
-Disclaimer: FOR EDUCATIONAL USE ONLY. Always obtain proper authorisation
-            before testing any system.
-License: MIT
-"""
-
 import sys
 import os
 import shutil
@@ -20,8 +9,6 @@ import json
 import re
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
-
-# ── ANSI Color Helpers ──────────────────────────────────────────────
 class Color:
     """Terminal ANSI escape sequences."""
     RESET   = "\033[0m"
@@ -58,7 +45,6 @@ def banner() -> None:
 """
     print(art)
 
-# ── OS & Package Manager Detection ──────────────────────────────────
 def detect_os() -> Dict[str, str]:
     """
     Detect the Linux distribution and return a dictionary with
